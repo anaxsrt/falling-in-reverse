@@ -27,7 +27,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/FALLING\ IN\ REVERSE\ BACKGROUND.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -38,14 +38,6 @@ section {
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
-.img-inicio {
-    position: absolute;
-    right: 0;
-    top: 18rem;
-    width: 45rem;
-    height: auto;
-}
 
 
 .esquerda-conteudo {
@@ -65,7 +57,6 @@ section {
     height: 3em;
     /* Convertido para em */
     align-content: center;
-
 }
 
 .display-4 {
@@ -73,18 +64,18 @@ section {
 }
 
 
-#tropicalia {
+#falling-in-reverse {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/falling_in_reverse.webp') top right no-repeat,
+        url('img/decorção\ de\ página.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
 
-#tropicalia .container {
+#falling-in-reverse .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,8 +98,8 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background: bottom right no-repeat;
+    background-size: 800px 534px;
 }
 
 #contato {
@@ -139,4 +130,16 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
+}
+
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
 }
